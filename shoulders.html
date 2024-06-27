@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<title>Sholders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<body>
+
+    <style>
+        .mySlides {display:none;}
+        </style>
+
+<style>
+    h1 {
+      font-family: Sofia, serif;
+    }
+    </style>
+
+
+
+
+
+
+<div class="w3-container w3-center">
+  <h1>Shoulder</h2>
+  <p>You can also add special effects on hover/mouse-over.</p>
+  <p><strong>Note:</strong> The w3-hover-sepia and w3-hover-grayscale classes are not supported in IE 11 and earlier versions.</p>
+
+  <p>w3-hover-opacity:</p>
+  <img src="https://i.ytimg.com/vi/2Vprklw8cu8/maxresdefault.jpg" class="w3-hover-opacity" style="width:80%">
+  <p>w3-hover-grayscale:</p>
+  <img src="https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2018/05/shoulder-muscles-anatomy.jpg" class="w3-hover-grayscale" style="width:80%">
+  <p>w3-hover-sepia:</p>
+  <img src="https://cdn.fitimg.in/content_blog_inner_8D33A790.jpg" class="w3-hover-sepia" style="width:80%">
+
+
+
+
+  <div class="w3-content w3-section"  style="max-width:800px">
+    <img class="mySlides w3-animate-top" src="https://cdn.shopify.com/s/files/1/0549/2663/9272/files/Shoulder-muscle-anatomy_480x480.jpg?v=1616068422" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="https://i.pinimg.com/736x/1b/e4/e7/1be4e73b689c1f34cbb6ef3e2e8aee46.jpg" style="width:100%">
+    <img class="mySlides w3-animate-top" src="https://i.pinimg.com/originals/77/0b/29/770b2949e6cb998b271db37e690b547b.png" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="https://i.pinimg.com/originals/14/49/a3/1449a3efaab853ca783f92a7493779f6.jpg" style="width:100%">
+  </div>
+
+<div style="margin-bottom: 30px;">
+  <h2>Centered Content</h2>
+  <img src="https://i.ytimg.com/vi/9es_WmiF1tA/maxresdefault.jpg" alt="car" style="width:80%;max-width:650px">
+  <p>The w3-center class centers an element.</p>
+</div>
+
+<div style="margin-bottom: 30px;">
+    <h2>Centered Content</h2>
+    <img src="https://i.ytimg.com/vi/-y6txqDdRQE/maxresdefault.jpg" alt="car" style="width:80%;max-width:650px">
+    <p>The w3-center class centers an element.</p>
+  </div>
+
+
+
+  <div style="margin-bottom: 30px;">
+    <h2>Centered Content</h2>
+    <img src="https://cdn.shopify.com/s/files/1/0549/2663/9272/files/Seated-shoulder-dumbbell-press_480x480.jpg?v=1616068493" alt="car" style="width:80%;max-width:650px">
+    <p>The w3-center class centers an element.</p>
+  </div>
+
+
+
+ 
+
+
+
+
+</div>
+
+
+</div>
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
